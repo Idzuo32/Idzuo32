@@ -23,6 +23,8 @@ The part I like most runs while I sleep. An unattended overnight loop picks the 
 
 Driving agents is the easy half. The harder half is judging what they produce, so the discipline around them is the real work: test-driven tracer bullets, a zero-context red-team review on every non-trivial plan, and a rule that nothing counts as done without fresh passing evidence.
 
+It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter kit, three skills and a framework. It is now around fifty, plus hooks, an issue backlog, and the overnight loop above.
+
 **Most of that system is private, because it runs my life and not just my code.** So what you see below are the pieces I pulled out of it, plus the products it helped build.
 
 ---
@@ -36,8 +38,6 @@ Driving agents is the easy half. The harder half is judging what they produce, s
 ---
 
 ### Open source
-
-**[AIS-OS](https://github.com/marko-builds/AIS-OS)**: a starter kit of the operating system above. The three-skill core plus the framework it runs on.
 
 **[skill-vibe-test](https://github.com/marko-builds/skill-vibe-test)**: does your Claude Code skill still steer the model after 10 turns, or has it quietly stopped working? Scripted conversation, LLM judge, decay chart. I wrote it because I kept guessing at the answer. One of my own skills failed it.
 
