@@ -17,13 +17,13 @@
 
 ### How I work
 
-I run a personal AI operating system I built on Claude Code. It drives my whole build pipeline: 40+ reusable automation skills, multi-agent orchestration, custom subagents, and integrations into email, calendar, and GitHub.
+I run a personal AI operating system I built on Claude Code. It drives my whole build pipeline: a library of reusable automation skills, multi-agent orchestration, custom subagents, and integrations into email, calendar, and GitHub.
 
-The part I like most runs while I sleep. An unattended overnight loop picks the next unblocked issue off a backlog, implements it test-first, and has to pass an automated code review before anything gets committed. Whole feature branches ship this way.
+One loop runs while I sleep. It picks the next unblocked issue off a backlog, implements it test-first, and has to pass an automated code review before anything gets committed. Whole feature branches ship this way.
 
-Driving agents is the easy half. The harder half is judging what they produce, so the discipline around them is the real work: test-driven tracer bullets, a zero-context red-team review on every non-trivial plan, and a rule that nothing counts as done without fresh passing evidence.
+Driving agents is the easy half. The harder half is judging what they produce, so the discipline around them is where the work goes: test-driven tracer bullets, a zero-context red-team review on every non-trivial plan, and nothing counts as done without fresh passing evidence.
 
-It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter kit, three skills and a framework. It is now around fifty, plus hooks, an issue backlog, and the overnight loop above.
+It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter kit, three skills and a framework. Mine has grown well past that: hooks, an issue backlog, and the overnight loop above.
 
 **Most of that system is private, because it runs my life and not just my code.** So what you see below are the pieces I pulled out of it, plus the products it helped build.
 
