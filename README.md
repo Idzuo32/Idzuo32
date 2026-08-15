@@ -1,8 +1,8 @@
 # Marko Stankovic
 
-### AI engineer. I build with autonomous coding agents and ship what they build.
+### AI engineer. I build AI systems and prove they work.
 
-[markostankovic.org](https://markostankovic.org) · [LinkedIn](https://www.linkedin.com/in/marko-builds/) · [contact@markostankovic.org](mailto:contact@markostankovic.org)
+[markostankovic.org](https://markostankovic.org) · [Book a call](https://markostankovic.org/call) · [LinkedIn](https://www.linkedin.com/in/marko-builds/) · [contact@markostankovic.org](mailto:contact@markostankovic.org)
 
 ---
 
@@ -40,6 +40,8 @@ It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter
 ### Open source
 
 **[skill-vibe-test](https://github.com/marko-builds/skill-vibe-test)**: does your Claude Code skill still steer the model after 10 turns, or has it quietly stopped working? Scripted conversation, LLM judge, decay chart. I wrote it because I kept guessing at the answer. One of my own skills failed it.
+
+**[adpreflight](https://github.com/marko-builds/adpreflight)**: checks a hand-coded HTML5 playable ad against network rule packs before you submit it, so the rejection lands on your machine instead of in an email three days later. One command, no clone. Every limit cites its primary source and retrieval date inline, rules are marked cited or derived so you can see which are inferred, and a third exit code means "no verdict established" rather than letting an unearned pass through.
 
 **[duskpaper](https://github.com/marko-builds/duskpaper)**: generative animated wallpapers for Wayland, rendered on your machine, at your resolution, with your seed. The public face of the procedural engines behind Habitagram's art.
 
