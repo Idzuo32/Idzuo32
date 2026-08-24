@@ -31,7 +31,7 @@ It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter
 
 ### Products
 
-**[DeployLog](https://deploylog.dev)**: release notes from your deploys. Full-stack SaaS built end-to-end. A hosted page, an embeddable widget, an [npm CLI](https://github.com/marko-builds/deploylog-cli) that turns git commits into release notes with an LLM, and a GitHub Action. Launching.
+**[DeployLog](https://deploylog.dev)**: release notes from your deploys. Full-stack SaaS built end-to-end. A hosted page, an embeddable widget, an [npm CLI](https://github.com/marko-builds/deploylog-cli) that turns git commits into release notes with an LLM, and a GitHub Action. Launching September 15.
 
 **Habitagram**: habit tracking as a journey. A React Native app where your habits move a boat across illustrated landscapes that shift with the time of day. The art is rendered from code, not drawn. Near launch.
 
@@ -44,6 +44,8 @@ It started as [Nate Herk's AIS-OS](https://github.com/nateherkai/AIS-OS) starter
 **[adpreflight](https://github.com/marko-builds/adpreflight)**: checks a hand-coded HTML5 playable ad against network rule packs before you submit it, so the rejection lands on your machine instead of in an email three days later. One command, no clone. Every limit cites its primary source and retrieval date inline, rules are marked cited or derived so you can see which are inferred, and a third exit code means "no verdict established" rather than letting an unearned pass through.
 
 **[duskpaper](https://github.com/marko-builds/duskpaper)**: generative animated wallpapers for Wayland, rendered on your machine, at your resolution, with your seed. The public face of the procedural engines behind Habitagram's art.
+
+**Omarchy plugins**: four plugins for [Omarchy](https://omarchy.org), a Linux desktop, each listed in its marketplace after passing a maintainer's review. [Borealis](https://github.com/marko-builds/borealis): a summoned fullscreen aurora, one fragment shader, zero assets, math ported from my generative engine. [Porthole](https://github.com/marko-builds/porthole): pin a live cropped view of any window, always on top, on every workspace. [Lodestar](https://github.com/marko-builds/lodestar): learn Omarchy by doing, guided lessons that confirm the task really happened. duskpaper above is the fourth.
 
 **[BlenderBridge](https://github.com/marko-builds/BlenderBridge)**: one-click validated Blender to Unreal asset ingest. Naming enforcement, normal maps, lightmap UVs, and a pre-flight report. Hybrid C++ and Python editor plugin.
 
